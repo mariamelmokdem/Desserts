@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Sign In</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/slick.css">
+		<link rel="stylesheet" href="css/slick-theme.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="fonts/css/all.min.css">
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+            <div class="navbar-brand w-25">
+                
+            </div>
+            <div class="navbar-nav ">
+            <a href="index.html" class="nav-item nav-link active" >Home</a>
+            <div class="dropdown">
+            <a href="#" class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" >categories</a>
+            <div class="dropdown-menu">
+            <a href="#" class="dropdown-item" >شرقية </a>
+            <a href="#" class="dropdown-item" >غربية</a>
+            
+            </div>
+            </div>
+            
+            <a href="#" class="nav-item nav-link" >About</a>
+            <div class="dropdown">
+                <a href="#" class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" >Registertion</a>
+                <div class="dropdown-menu">
+                <a href="login.html" class="dropdown-item" >Sign In</a>
+                <a href="register.html" class="dropdown-item" >Sign Up</a>
+                
+                </div>
+            </div>
+            
+            </div>
+        </nav>
+
+        <form action="action_page.php" method="post">
+            
+          
+            <div class="container">
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter your email" name="email" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+          
+            <div class="container" style="background-color:#f1f1f1">
+              
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+        <script src="js/jquery-3.5.1.min.js" ></script>
+		<script src="js/popper.min.js" ></script>
+		<script src="js/slick.min.js" ></script>
+		<script src="js/bootstrap.js" ></script>
+		<script src="js/script.js" ></script>
+          
+    </body>
+</html>
